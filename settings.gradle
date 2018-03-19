@@ -1,0 +1,6 @@
+rootProject.name = 'RecipeStore'
+include "DAO"
+include"Services"
+include "BusinessLogic"
+include 'Portal'
+

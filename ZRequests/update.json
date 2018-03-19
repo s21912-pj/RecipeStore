@@ -1,0 +1,42 @@
+{
+  "recipe_id": 181,
+  "recipeName": "Papilot",
+  "weight": 450,
+  "aproxPrice": 12,
+  "raiting": 7,
+  "caloriesCat": 3,
+  "foodCat": 2,
+  "calories": 5000,
+  "user_id": 500,
+  "publishDate": 1508018400000,
+  "recipeComponents": [
+    {
+      "component_id": 440,
+      "componentName": "Zarnisk",
+      "componentWeight": 100,
+      "componentDescription": "Miesomieso jest git",
+      "componentCalories": 200
+    },
+    {
+      "component_id": 441,
+      "componentName": "Spers",
+      "componentWeight": 100,
+      "componentDescription": "Miesomieso jest git",
+      "componentCalories": 200
+    },
+    {
+      "component_id": 442,
+      "componentName": "Kopers",
+      "componentWeight": 100,
+      "componentDescription": "Miesomieso jest git",
+      "componentCalories": 200
+    },
+    {
+      "component_id": 443,
+      "componentName": "Zasssa",
+      "componentWeight": 100,
+      "componentDescription": "Miesomieso jest git",
+      "componentCalories": 200
+    }
+  ]
+}

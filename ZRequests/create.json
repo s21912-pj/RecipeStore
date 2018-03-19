@@ -1,0 +1,37 @@
+{
+  "recipeName":"Zaix",
+  "weight":450,
+  "aproxPrice":12,
+  "raiting":7,
+  "foodCat":2,
+  "calories":5000,
+  "user_id":500,
+  "recipeComponents":[
+    {
+      "componentName":"Pasta",
+      "componentWeight":100,
+      "componentDescription":"Miesomieso jest git",
+      "componentCalories":200.00
+    },
+    {
+      "componentName":"Zas",
+      "componentWeight":100,
+      "componentDescription":"Miesomieso jest git",
+      "componentCalories":200.00
+    },
+    {
+      "componentName":"Kops",
+      "componentWeight":100,
+      "componentDescription":"Miesomieso jest git",
+      "componentCalories":200.00
+    },
+    {
+      "componentName":"Zasssa",
+      "componentWeight":100,
+      "componentDescription":"Miesomieso jest git",
+      "componentCalories":200.00
+    }
+
+  ]
+}
+
