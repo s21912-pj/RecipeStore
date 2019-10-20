@@ -19,15 +19,15 @@ public class UpdateRecipeImpl implements RepositoryUpdateRecipe {
     @Autowired
     private JdbcTemplate jdbcTemplate;
     @Override
-    public Recipe updateFullRecipe(Recipe recipe, Integer id){
-        return updateRecipe(recipe, id);
+    public Recipe updateFullRecipe(Recipe recipe){
+        return updateRecipe(recipe);
     }
 
 
-    private Recipe updateRecipe(Recipe recipe, Integer id) {
+    private Recipe updateRecipe(Recipe recipe) {
         jdbcTemplate.update(SqlRecipeStaticData.sUpdateRecipe, recipe.getRecipeName(), recipe.getWeight(),
                 recipe.getAproxPrice(), recipe.getRaiting(), recipe.getCalories(), recipe.getCaloriesCat(),
-                recipe.getFoodCat(), id);
+                recipe.getFoodCat(), recipe.getRecipeId);
 
         jdbcTemplate.batchUpdate(SqlComponentStaticData.sUpdateComponentByRecipeId, new BatchPreparedStatementSetter() {
             @Override
